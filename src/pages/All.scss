@@ -1,0 +1,482 @@
+/*============================ Home Style============================== */
+
+.offers p {
+    border-bottom: 0.0625rem solid #ccc;
+    font-size: 13px;
+    padding: 15px;
+    color: gray;
+    margin-top: 60px;
+    text-align: center;
+}
+.banner {
+    box-sizing: border-box;
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/images/homeBanner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px 10px;
+    box-sizing: border-box;
+}
+.shoes {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.apply {
+    margin: 3.125rem 0px;
+}
+.card {
+    padding: 15px;
+    width: 33.33%;
+}
+.card img {
+    width: 100%;
+}
+section.summer_section {
+    /* margin-top: 3.125rem; */
+    width: 100%;
+    height: 400px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    /* margin-bottom: 3.125rem; */
+}
+.summer_essential {
+    padding: 10px;
+    box-sizing: border-box;
+}
+.summer_img {
+    width: 65%;
+    float: left;
+}
+.summer_img img {
+    width: 100%;
+}
+.about {
+    width: 35%;
+    float: right;
+    padding: 22px;
+    margin: 4% 0px;
+    box-sizing: border-box;
+}
+.about .summer {
+    font-size: 20px;
+    line-height: 25px;
+}
+.about button {
+    background: #ffffff;
+    border: 1px solid black;
+    padding: 15px 40px;
+    font-size: 14px;
+}
+.classy {
+    padding: 10px;
+}
+.block {
+    display: flex;
+    width: 100%;
+}
+.space {
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.space .col {
+    padding: 15px !important;
+}
+.change {
+    padding: 20px 0px;
+}
+.block .col {
+    width: 50%;
+    padding: 10px;
+}
+.col img {
+    width: 100%;
+}
+.summry {
+    margin: 3% 0px !important;
+}
+.text {
+    float: left;
+    text-align: right;
+}
+.gst {
+    background-color: gray;
+    color: white;
+    margin: 30px 0px;
+}
+.gst p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+}
+.border {
+    width: 97%;
+    border-top: 0.0625rem solid #ccc;
+    margin: 3.125rem 0px;
+}
+/* ============================  Sneaker style =========================== */
+
+video {
+    padding-top: 20px;
+    width: 100%;
+}
+.discription {
+    padding: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #000;
+    word-spacing: 1px;
+    box-sizing: border-box;
+}
+.discription i {
+    color: #d32027;
+    font-size: 20px;
+    font-weight: bold;
+}
+.action {
+    padding: 10px;
+    width: 100%;
+}
+h1 {
+    padding: 10px;
+    font-size: 100px;
+    font-weight: 900;
+    color: #000;
+}
+.block {
+    width: 100%;
+    display: flex;
+    // flex-wrap: wrap;
+}
+.blog {
+    width: 20%;
+    padding: 10px;
+}
+.img-content img {
+    margin-top: -45px;
+}
+img {
+    width: 100%;
+}
+.power {
+    width: 33.33%;
+    padding: 10px;
+}
+.border {
+    border: 1px solid gray !important;
+    padding: 10px;
+}
+
+.card .heading {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card .price {
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.brand_logo {
+    width: 100px;
+}
+
+/* ============================ New style =========================== */
+
+.new {
+    width: 100% !important;
+    height: 600px;
+    margin-top: 60px;
+}
+.sidenav {
+    margin-left: 0px !important;
+    width: 20%;
+    float: left;
+}
+.sidenav li {
+    padding: 10px 0px !important;
+    list-style: none !important;
+}
+.product_page {
+    width: 80%;
+    float: left;
+}
+.product_number {
+    display: flex;
+}
+.product_name li {
+    list-style: none;
+}
+.product_name p {
+    font-weight: 500;
+    color: #67696a;
+}
+.product_number h2 {
+    font-weight: 600;
+}
+.product_number span {
+    padding: 30px;
+    font-weight: 600;
+    color: #b2adad;
+    font-size: 20px;
+    margin-left: -16px;
+}
+.filter {
+    padding: 20px;
+    border-bottom: 0.0625rem solid #ccc;
+}
+.filter i {
+    font-size: 20px;
+}
+.filter span {
+    padding-left: 10px;
+}
+.table i {
+    float: right;
+    font-size: 30px;
+}
+/* .images {
+    width: 100%;
+    display: flex  !important;
+    box-sizing: border-box;
+} */
+.container {
+    width: 100%;
+    display: flex;
+}
+.productList {
+    width: 100% !important;
+    padding: 10px;
+    display: flex;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.col-md-4 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000 !important;
+}
+// .card:hover {
+//     transform: scale(1.1);
+//     cursor: pointer;
+// }
+.col-md-4 .card {
+    width: 100% !important;
+    border-bottom: 1px solid #ccc;
+}
+.card img {
+    width: 100% !important;
+    padding-bottom: 10px;
+    transition: all 2s ease;
+}
+
+.product_name {
+    font-weight: 600;
+}
+.product_price {
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* ============================ Women  Style =========================== */
+.women {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+}
+
+/* ============================ Men  Style =========================== */
+.men {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+}
+/* ============================ Kids  Style =========================== */
+.kid {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+}
+
+/* ============================ Sale Style =========================== */
+.sale {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+}
+/* ============================ Brands Style =========================== */
+.brand_title h3 {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 60px;
+    color: black;
+    font-size: 29px;
+}
+.brand {
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+
+    .logos {
+        width: 15%;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .logos img {
+        padding: 40px 10px;
+        width: 100px;
+    }
+}
+/* ============================ Error Style ============================ */
+.error {
+    margin-top: 100px;
+    text-align: center;
+    height: 72vh;
+    h1 {
+        padding: 10px;
+        font-size: 79px;
+        font-weight: 600;
+        color: #000;
+    }
+}
+
+/*============================ Product Details Page ============================ */
+.singal_product {
+    width: 100%;
+    height: 600px !important;
+    margin-top: 60px;
+}
+.sproduct {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+    .small-img img {
+        width: 80%;
+        margin-top: -50px;
+    }
+    .details {
+        text-align: left;
+    }
+    .brandImg img {
+        width: 30%;
+    }
+    .name h2 {
+        font-size: 26px;
+        font-weight: 600;
+        padding-bottom: 15px;
+    }
+    .product_price span {
+        font-size: 26px;
+        font-weight: 500;
+        color: #000;
+    }
+    .taxes {
+        padding-top: 9px;
+        color: gray;
+    }
+    .p-color {
+        padding-bottom: 5px;
+    }
+    .p-size {
+        padding-bottom: 5px;
+    }
+    .button {
+        color: #ffffff;
+        background-color: rgba(230, 0, 0, 0.85);
+        border-radius: none;
+        border: none;
+        padding: 12px;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+    }
+}
+
+/* ====================== Mobile View =========================== */
+@media screen and(min-width:320px) and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    .offers p {
+        margin-top: 60px;
+    }
+    .banner {
+        margin: -70% 10px;
+    }
+    .block {
+        display: block;
+        .col {
+            width: 100%;
+        }
+    }
+    .shoes {
+        display: block;
+        .card {
+            width: 100%;
+        }
+    }
+    .summer_img {
+        width: 100%;
+    }
+    .about {
+        width: 100%;
+        text-align: center;
+    }
+    .about button {
+        padding: 10px 20px;
+        color: #000;
+    }
+    .gst p {
+        font-size: 16px;
+    }
+    .product_page {
+        width: 100%;
+        text-align: center;
+    }
+    .product_number h2 {
+        text-align: center;
+    }
+
+    .sidenav {
+        display: flex;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    .sidenav li {
+        padding: 10px 10px !important;
+        list-style: none !important;
+        font-size: 20px;
+    }
+    .sidenav b {
+        padding: 10px 10px !important;
+        list-style: none !important;
+        font-size: 20px;
+    }
+    .productList {
+        display: flex;
+        width: 100%;
+        .col-md-4 {
+            width: 50%;
+        }
+    }
+    .brand-name {
+        display: flex;
+        width: 100%;
+        .logos {
+            width: 50%;
+            // margin: 2px !important;
+        }
+    }
+}

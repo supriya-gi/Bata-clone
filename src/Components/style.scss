@@ -1,0 +1,132 @@
+/* ============================  Header style =========================== */
+
+.logo {
+    text-align: left;
+    /* padding: 10px; */
+}
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* box-shadow:2px 2px 10px rgb(0 0 0 / 8%); */
+    position: fixed !important;
+    top: 0px !important;
+    left: 0;
+    background-color: #ffffff;
+    border-bottom: 0.0625rem solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.navbar {
+    width: 80%;
+    height: 50px;
+    color: #000;
+    text-align: right;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+}
+.navbar ul li:hover {
+    border-bottom: 1px solid #ed161f;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.icons {
+    margin-top: -7px;
+}
+.icons ul {
+    display: flex;
+    /* padding: 0px 10px; */
+}
+.icons li {
+    list-style: none;
+    padding: 5px 15px;
+}
+.icons li svg {
+    width: 30px;
+    height: 30px;
+}
+.fixed {
+    color: #ed161f !important;
+}
+// .data {
+//     width: 100%;
+//     display: none;
+//     position: absolute;
+//     margin-left: 0px !important;
+//     top: 44px;
+//     left: 0px !important;
+//     width: 100%;
+//     height: auto;
+//     padding: 10px 20% !important;
+//     background-color: #ffffff;
+//     color: #000;
+//     /* box-shadow:2px 2px 10px rgb(0 0 0 / 8%); */
+//     cursor: pointer;
+// }
+.subnav p {
+    font-size: 13px;
+    word-spacing: 1px;
+    padding-left: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.subnav {
+    display: inline-block;
+    margin-left: 0px !important;
+    padding: 10px 20px !important;
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.subnav li {
+    list-style: none;
+    display: block !important;
+}
+.subnav li a {
+    color: gray !important;
+    font-weight: 300;
+    font-size: 0.8125rem;
+}
+// .navbar ul li a:hover + .data {
+//     display: block !important;
+// }
+.dark .subnav li a {
+    color: black !important;
+    padding: 10px !important;
+}
+
+/* ============================ Footer Style ============================ */
+.container {
+    padding: 0px;
+    .footer {
+        width: 100%;
+        text-align: center;
+        background-color: #ccc;
+        color: #000;
+        padding: 15px;
+        border-top: 1px solid #ccc;
+        box-sizing: border-box;
+        z-index: 1;
+        margin-top: 10px;
+    }
+    .footer p {
+        /* font-size: 1rem !important; */
+        font-weight: 600;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
