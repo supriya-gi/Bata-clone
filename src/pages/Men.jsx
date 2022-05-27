@@ -109,7 +109,7 @@ function Men() {
             <i class="fa fa-th" aria-hidden="true"></i>
           </div>
         </div>
-        <h3 className="text-center p-5"></h3>
+        {/* <h3 className="text-center p-5"></h3> */}
         <div className="container">
           <div className="productList">
             {productDtails.map((data) => (

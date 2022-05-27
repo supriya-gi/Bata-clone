@@ -1,7 +1,7 @@
 import bata from "../assets/images/bata.png";
 import { NavLink } from "react-router-dom";
 import "./style.scss";
-import kids from "../assets/images/kids.png";
+// import kids from "../assets/images/kids.png";
 function Header() {
   return (
     <div className="header">

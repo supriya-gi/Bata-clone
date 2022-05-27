@@ -1,7 +1,6 @@
 import "../pages/All.scss";
 const singleProduct = [
   {
-    id: "1",
     productImg:
       "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw6bca7d5b/images/large/8316471_1.jpeg?sw=1634",
     productBrand:
@@ -30,7 +29,7 @@ function productDetail(props) {
             </div>
             <div className="col-md-4 details">
               <div className="brandImg">
-                <img src={item.productBrand} />
+                <img src={item.productBrand} alt="brand-img" />
               </div>
               <div className="name">
                 <h2>{item.productName}</h2>
